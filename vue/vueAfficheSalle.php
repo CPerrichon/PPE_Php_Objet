@@ -36,6 +36,6 @@
     }
   }else{
     ?>
-    <h1>T'es pas connecté batard</h1>
+    <h1>Tu n'es pas connecté !!</h1>
     <?php
   }?>
