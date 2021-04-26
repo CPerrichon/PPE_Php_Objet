@@ -26,6 +26,6 @@ class UserManager extends Manager
     }
     public function LogOut()
     {
-        $_SESSION["level"] = false;
+        $_SESSION["conected"] = false;
     }
 }
