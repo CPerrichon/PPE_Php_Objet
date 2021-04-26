@@ -24,4 +24,8 @@ class UserManager extends Manager
             var_dump("echoue");
         }
     }
+    public function LogOut()
+    {
+        $_SESSION["level"] = false;
+    }
 }
