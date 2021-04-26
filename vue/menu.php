@@ -10,5 +10,7 @@
       </li>
     </ul>
   </div>
+  <?php if($_SESSION["conected"]==true){?>
   <a class="navbar-brand" href="./?action=logout">Déconnexion</a>
-</nav>
+  <?php } else {}?> 
+  </nav>

@@ -19,7 +19,6 @@ class UserManager extends Manager
         {
             $_SESSION["level"] = $level;
             $_SESSION["conected"] = true;
-            var_dump("tu es co");
         }else{
             var_dump("echoue");
         }
