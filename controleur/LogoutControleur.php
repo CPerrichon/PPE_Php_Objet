@@ -7,7 +7,7 @@ if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
 require_once("$racine/modele/UserManager.php");
 
 $userManager = new UserManager();
-$userManager-> LogOut();
+$userManager->LogOut();
 
 include "$racine/vue/header.php";
 include "$racine/vue/vueAccueil.php";

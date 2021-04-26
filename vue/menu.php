@@ -10,5 +10,5 @@
       </li>
     </ul>
   </div>
-  <a class="navbar-brand" href="./?action=accueil">Déconnexion</a>
+  <a class="navbar-brand" href="./?action=logout">Déconnexion</a>
 </nav>
