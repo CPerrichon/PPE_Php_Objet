@@ -1,6 +1,9 @@
+<?php
+  if($_SESSION["conected"]==true){?>
 <h1>Site de Gestion des salles</h1>
+<?php }else{?>
 
-
+<h1>Site de Gestion des salles</h1>
 <form action="./?action=login" method="post">
 	<div class="form-group">
 		<label for="exampleInputEmail1">Login</label>
@@ -12,3 +15,4 @@
 	</div>
 	<button type="submit" class="btn btn-primary">Connexion</button>
 </form>
+<?php }?>
