@@ -1,7 +1,12 @@
 <?php
   if($_SESSION["conected"]==true){
+    if($_SESSION["level"]!=2){
+        ?><h1>Accès interdit</h1>
+        <?php
+      
+      }
       if($_SESSION["level"]==2){?>
-  
+
 <h1><?= $titre ?></h1>
 
 <form action="./?action=creer" method="post">
@@ -72,8 +77,4 @@
     <button type="submit" class="btn btn-primary btn-block">Ajouter le poste</button>
 </form>
 
-<?php }}else{
-  ?>
-  <h1>Merci de vous connecter pour avoir accès à cette page</h1><?php
-
-}?>
+<?php }?> <?php  }else{ ?> <h1>Merci de vous connecter pour avoir accès à cette page</h1><?php }?>
