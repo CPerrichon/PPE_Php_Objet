@@ -29,7 +29,7 @@ $type = $typeManager->getList();
 
 if (!empty($_POST['nPoste']) && !empty($_POST['nomPoste']) && !empty($_POST['indIP']) && !empty($_POST['ad']) && !empty($_POST['typePoste']) && !empty($_POST['nSalle'])) {
     $ajoutPosteManager = new AddPosteManager();
-    $ajoutPoste = $ajoutPosteManager->addPoste($_POST['nPoste'], $_POST['nomPoste'], $_POST['indIP'], $_POST['ad'], $_POST['typePoste'], $_POST['nSalle']);
+    $ajoutPoste = $ajoutPosteManager->addPoste($_POST['nPoste'], $_POST['nomPoste'], $_POST['indIP'], $_POST['ad'], $_POST['typePoste'], $_POST['nSalle'], $_POST['nbLog']);
 }
 
 $titre = "Créer un poste";

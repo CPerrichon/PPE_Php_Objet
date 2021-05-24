@@ -19,8 +19,10 @@ class UserManager extends Manager
         {
             $_SESSION["level"] = $level;
             $_SESSION["conected"] = true;
+            $_SESSION["ereur"] = "";
         }else{
             var_dump("echoue");
+            $_SESSION["ereur"] = "Login ou Mot de passe  incorect";
         }
     }
     public function LogOut()

@@ -62,14 +62,18 @@
         <input  name="ad" id="ad" class="form-control" maxlength="2" />
     </div>
 
-    
+    <div class="form-outline mb-4">
+        <label class="form-label" name="nbLog" for="nbLog">nbLog:</label>
+        <input  type="number" min="0" max="100"  name="nbLog" id="nbLog" class="form-control" maxlength="2"/>
+    </div>    
 
     
 
     <button type="submit" class="btn btn-primary btn-block">Ajouter le poste</button>
 </form>
 
-<?php }else{
-  ?><H1>Accès interdit</H1><?php
-}
+<?php }}else{
+  ?>
+  <h1>Merci de vous connecter pour avoir accès à cette page</h1><?php
+
 }?>

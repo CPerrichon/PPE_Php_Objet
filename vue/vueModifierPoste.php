@@ -39,7 +39,7 @@
 
     <div class="form-outline mb-4">
         <label class="form-label" name="ad" for="ad">AD:</label>
-        <input  name="ad" id="ad" class="form-control" maxlength="2"/>
+        <input type="number" name="ad" id="ad" class="form-control" maxlength="2"/>
     </div>
 
     <div class="form-outline mb-4">
@@ -73,13 +73,14 @@
 
     <div class="form-outline mb-4">
         <label class="form-label" name="nbLog" for="nbLog">nbLog:</label>
-        <input  name="nbLog" id="nbLog" class="form-control" maxlength="2"/>
+        <input  type="number" name="nbLog" id="nbLog" class="form-control" maxlength="2"/>
     </div>
 
     <button type="submit" class="btn btn-primary btn-block">Modifier le poste </button>
 </form>
 
-<?php }else{
-  ?><H1>Accès interdit</H1><?php
-}
+<?php }}else{
+  ?>
+  <h1>Merci de vous connecter pour avoir accès à cette page</h1><?php
+
 }?>

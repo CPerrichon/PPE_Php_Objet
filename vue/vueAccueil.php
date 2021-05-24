@@ -1,7 +1,9 @@
 <?php
   if($_SESSION["conected"]==true){?>
 <h1>Site de Gestion des salles</h1>
-<?php }else{?>
+<h5>Ce site est à disposition de la Maison des ligues afin de pouvoir créer, modifier, supprimer des postes informatiques, et aussi de pouvoir accéder toutes les informations concernant les salles informatiques</h5>
+<?php }else{
+	?><h1><?php echo $_SESSION["ereur"]?></h1>
 
 <h1>Site de Gestion des salles</h1>
 <form action="./?action=login" method="post">

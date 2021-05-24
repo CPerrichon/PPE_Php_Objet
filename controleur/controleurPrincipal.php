@@ -8,6 +8,7 @@ function controleurPrincipal($action) {
     $lesActions["logout"]="LogoutControleur.php";
     $lesActions["creer"]="creerPoste.php";
     $lesActions["modif"]="modifierPoste.php";
+    $lesActions["suppr"]="supprimerPoste.php";
     
     if (array_key_exists($action, $lesActions)) {
         return $lesActions[$action];

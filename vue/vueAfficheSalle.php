@@ -36,6 +36,6 @@
     }
   }else{
     ?>
-    <h1>Tu n'es pas connecté !!</h1>
+    <h1>Merci de vous connecter pour avoir accès à cette page</h1>
     <?php
   }?>
