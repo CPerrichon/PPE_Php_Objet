@@ -11,7 +11,7 @@
           <p class="card-text">
           <ul>
             <li><?= $salle->GetRoom_Name() ?></li>
-            <li><?= $salle->GetNbPoste() ?></li>
+            <li>Nombres de postes :<?= $salle->GetNbPoste() ?></li>
             <li><?= $salle->GetUnIndIP() ?></li>
             <li><?= $areas[$salle->GetArea_Id()]->GetArea_name() ?></li>
             <li><?= $salle->GetCapacity() ?></li>

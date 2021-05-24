@@ -11,6 +11,9 @@
       <li class="nav-item">
         <a class="nav-link" href="./?action=creer">Créer un poste</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./?action=modif">Modifier un poste</a>
+      </li>
     </ul>
   </div>
   <?php if($_SESSION["conected"]==true){?>
